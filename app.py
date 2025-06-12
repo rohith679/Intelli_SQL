@@ -2,7 +2,6 @@ import streamlit as st
 import os
 import sqlite3
 import google.generativeai as genai
-from dotenv import load_dotenv
 
 # Try to get API key from Streamlit Secrets (Streamlit Cloud)
 api_key = st.secrets.get("API_KEY", None)
