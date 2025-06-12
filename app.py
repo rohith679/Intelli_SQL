@@ -40,7 +40,7 @@ def read_query(sql, db):
     return rows
 
 # Page Config
-st.set_page_config(page_title="IntelliSQL", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="IntelliSQL-- Ask your Database", page_icon="🧠", layout="wide")
 
 # --- CSS Styling ---
 st.markdown("""
