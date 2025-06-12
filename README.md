@@ -9,7 +9,7 @@ This is a Streamlit app that converts English questions into SQL queries using G
 
 - Dynamic SQLite database initialization on first run
 - Stores and queries student information
-- Clean, neon-blue themed UI built with Streamlit
+- Clean, neon-red themed UI built with Streamlit
 - Uses Google Gemini API for natural language to SQL translation
 
 ---
