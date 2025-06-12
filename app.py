@@ -40,7 +40,7 @@ def read_query(sql, db):
     return rows
 
 # Page Config
-st.set_page_config(page_title="IntelliSQL-- Ask your Database", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="IntelliSQL", page_icon="🧠", layout="wide")
 
 # --- CSS Styling ---
 st.markdown("""
@@ -172,7 +172,7 @@ html, body, .stApp {
 """, unsafe_allow_html=True)
 
 # --- Title & Subtitle ---
-st.markdown("<h1 class='main-title'>IntelliSQL</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>IntelliSQL - Ask your Database</h1>", unsafe_allow_html=True)
 st.markdown("<h3 class='subtitle'>Query your database like a pro – just by asking in English!</h3>", unsafe_allow_html=True)
 
 # --- Description ---
